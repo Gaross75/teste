@@ -1,0 +1,14 @@
+{
+  "ollama": {
+    "base_url": "http://localhost:11434",
+    "model": "phi3:mini",
+    "temperature": 0.7
+  },
+  "audio": {
+    "tts_command": "soprano-tts",
+    "tts_voice": "pt-BR",
+    "tts_speed": 1.0,
+    "sample_rate": 16000,
+    "vosk_model_path": "models/vosk"
+  }
+}
